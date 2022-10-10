@@ -59,6 +59,15 @@ ul li a:hover ,.active
     background-color: white;
     color: #200016;;
 }
+
+
+@media screen and (max-width:900px)
+{
+ header
+ {
+    display: none;
+ }   
+}
 .main
 {
     position: relative;
@@ -67,7 +76,9 @@ ul li a:hover ,.active
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
+
 .main::after
 {
     content: "";
@@ -112,20 +123,3 @@ font-size: 28px;
     margin: 20px ;
     line-height: 1.5;
 }
-
-/* 
-
-
-.content h2
-{
-margin: 20px ;
-font-size: 28px;
-}
-
-.content p
-{
-    margin: 20px ;
-    line-height: 1.5;
-}
-
-*/
